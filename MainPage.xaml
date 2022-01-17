@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="UWP_Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="Grids">
+        <Button x:Name="one" Width="211" Height="91" Margin="22,145,0,0" Content="1" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="one_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="two" Width="211" Height="91" Margin="306,165,0,0" Content="2" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="two_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="three" Width="211" Height="91" Margin="569,160,0,0" Content="3" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="three_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="four" Width="211" Height="91" Margin="15,329,0,0" Content="4" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="four_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="five" Width="211" Height="91" Margin="309,329,0,0" Content="5" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="five_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="six" Width="211" Height="91" Margin="577,333,0,0" Content="6" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="six_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="seven" Width="211" Height="91" Margin="20,511,0,0" Content="7" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="seven_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="eight" Width="211" Height="91" Margin="297,511,0,0" Content="8" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="eight_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="nine" Width="211" Height="91" Margin="568,511,0,0" Content="9" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="nine_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="plus" Width="211" Height="91" Margin="941,149,0,0" Content="+" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="plus_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="minus" Width="211" Height="91" Margin="950,283,0,0" Content="-" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="minus_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="multiplication" Width="211" Height="91" Margin="957,434,0,0" Content="*" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="multiplication_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="divison" Width="211" Height="91" Margin="957,568,0,0" Content="/" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="divison_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="zero" Width="211" Height="91" Margin="26,698,0,0" Content="0" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="zero_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="equal" Width="211" Height="91" Margin="303,698,0,0" Content="=" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="equal_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="answerbox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="143" Width="1480" FontSize="92" TextChanged="answerbox_TextChanged"/>
+        <Button x:Name="clear" Width="211" Height="91" Margin="565,708,0,0" Content="C" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="clear_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="modulues" Width="211" Height="91" Margin="967,711,0,0" Content="%" RenderTransformOrigin="2.848,-7.749" UseLayoutRounding="False" d:LayoutRounding="Auto" VerticalAlignment="Top" FontSize="38" Click="modulues_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.194"/>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Page>
